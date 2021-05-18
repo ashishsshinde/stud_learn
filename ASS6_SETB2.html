@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Set B Q2</title>
+
+	<style type="text/css">
+
+		body{
+			text-align: center;
+		}
+
+		.div1{
+			text-align: left;
+			margin-left: 15px;
+			padding-left: 15px;
+		}
+		.div{
+			border-style: solid;
+			margin-right: 40%;
+			margin-left: 30%;
+		}
+		.input{
+			margin-left: 10%;
+		}
+
+		.name{
+			text-align: left;
+			margin-left: 15px;
+		}
+
+		.radio{
+			position: relative;
+ 		}
+
+ 		.submit{
+ 			background-color: white;
+			color: black;
+			border: 2px solid black;
+			padding-left: 17px;
+			padding-right: 17px;
+			padding-top:5px; 
+			padding-bottom: 5px;
+			font-weight: bold;
+			font-size: 20px;
+			margin-left: 45px;
+ 		}
+
+	</style>
+</head>
+<body>
+	<div class="div">
+		<p class="name">
+			Enter &ensp;Your &ensp;Name&ensp;<input type="name" name="name" class="input">
+		</p>
+
+		<p class="name Password">
+			Enter Your Password <input type="Password" name="Password" class="input">
+		</p>
+
+		<p class="name"> Which of the following Operating System have you used ?</p>
+		<div class="div1">
+			<input type="checkbox" name="Linux" checked="required"> LINUX
+			<input type="checkbox" name="Windoes" checked="required"> Windows XP
+			<input type="checkbox" name="Macintosh 8.0"> Macintosh 8.0
+		</div>
+
+		<p class="name">Which Operating System do youlike the best</p>
+		<div class="div1 radio">
+			<input type="radio" name="Operating"> LINUX
+			<input type="radio" name="Operating"> Windows XP
+			<input type="radio" name="Operating"> Macintosh 8.0
+		</div>
+
+
+		<p class="name">You have completed the form. <input type="submit" name=" Submit" class="submit"></p>
+	</div>
+</body>
+</html>
